@@ -98,8 +98,6 @@ from pydantic_settings import BaseSettings  # Настройки через Pyda
 # 📍 Базовая директория проекта
 BASE_PATH = Path(__file__).resolve().parent.parent.parent
 
-# 🧪 Загрузка .env-файла
-load_dotenv(dotenv_path=BASE_PATH / ".env")
 
 
 # 🔄 Режимы приложения
